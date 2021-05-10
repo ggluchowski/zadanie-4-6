@@ -1,0 +1,16 @@
+<i class="fas fa-shopping-basket"></i>
+
+<i class="fas fa-lock"></i>
+
+<i class="fas fa-laptop-code"></i>
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&family=Newsreader:ital,wght@0,200;0,300;1,200;1,300&family=Norican&display=swap');
+</style>
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Newsreader', serif;
+font-family: 'Norican', cursive;
+
+kolor=#dfe6e9
