@@ -125,8 +125,11 @@ header {
 .services .container i {
     border: 3px solid $color-brand;
     border-radius: 50%;
-    font-size: 30px;
-    padding: 15px;
+    font-size: 35px;
+    padding: 0;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
     color: $color-brand;
 }
 .services .container .box-description {
@@ -169,3 +172,36 @@ header {
     margin-top: 1px;
     margin-bottom: 20px;
 }
+
+/* FOOTER */
+
+footer .row-column {
+    flex-direction: row; 
+}
+footer .social-list {
+    list-style-type: none;
+    padding: 0;
+}
+footer .text-left {
+    text-align: left;
+    font-weight: bold;
+}
+footer .social-list .social {
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 0; 
+}
+footer .social-list .social a {
+    text-decoration: none;
+}
+footer .social-list .social i {
+    border: 1px solid $color-black;
+    background-color: $color-black;
+    border-radius: 50%;
+    font-size: 20px;
+    color: $color-white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
