@@ -8,6 +8,9 @@ $color-white: #fff;
 $color-background: #dfe6e9;
 $color-text-body: #718093;
 $color-brand: gold;
+$color-black: #000;
+
+/* GLOBAL */
 
 *, *::before, *::after {
     box-sizing: border-box;    
@@ -21,8 +24,25 @@ body {
     color: $color-text-body;
     line-height: 1.7;
 }
+.section-title {
+    font-family: $font-family-head;
+    color: $color-black;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 80px;
+}
+.description {
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+.box-title {
+    font-size: 20px;
+    color: $color-black;
+    font-family: $font-family-head;
+}
 
-/*  NAVBAR */
+/*  NAVBAR + HEADER */
 .head-nav {
     background-image: url("/images/header.jpeg");
     background-color: $color-white;
@@ -92,4 +112,25 @@ header {
     font-family: $font-family-head;
     text-transform: uppercase;
     border-radius: 50px 20px;
+}
+
+/* SERVICES */
+
+.services .container i {
+    border: 3px solid $color-brand;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 15px;
+    color: $color-brand;
+}
+.services .container .box-description {
+    height: 300px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: wrap;
+}
+
+/* PORTFOLIO */
+.card img {
+    object-fit: cover;
 }
