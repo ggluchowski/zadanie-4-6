@@ -24,13 +24,19 @@ body {
     color: $color-text-body;
     line-height: 1.7;
 }
+.margin {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 .section-title {
     font-family: $font-family-head;
     color: $color-black;
     font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 0;
-    margin-top: 80px;
+    margin-top: 30px;
 }
 .description {
     margin-top: 0;
@@ -131,6 +137,35 @@ header {
 }
 
 /* PORTFOLIO */
-.card img {
+.portfolio {
+    background-color: $color-background;
+}
+.portfolio .card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.portfolio .card .card-image {
+    display: block;
+    margin: 0;  
+    line-height: 0;
+}
+.portfolio .card .card-image img {
     object-fit: cover;
+    height: 300px;
+    width: 100%;
+}
+.portfolio .card .card-body {
+    background-color: $color-white;
+}
+.portfolio .card .card-body .image-title {
+    font-size: 20px;
+    color: $color-black;
+    font-family: $font-family-head;
+    margin-top: 20px;
+    margin-bottom: 1px;
+}
+.portfolio .card .card-body .image-subtitle {
+    margin-top: 1px;
+    margin-bottom: 20px;
 }
